@@ -1,0 +1,43 @@
+;
+; Copyright (c) 2023 Ben Everard 
+;
+; SPDX-License-Identifier: BSD-3-Clause
+
+.program eightbit_r2r_dac_lfo_simple
+loop:
+	out pins, 8
+	pull ; could do autopull, but this feels less error prone if changing the size
+		
+	set y 31
+pause_loop:
+	nop
+	jmp y-- pause_loop
+	
+	jmp loop
+
+% c-sdk {
+#include "hardware/gpio.h"
+static inline void eightbit_r2r_dac_lfo_simple_init(PIO pio, uint sm, uint prog_offs, uint pin, float init_clkdiv) {
+
+	pio_sm_config c = eightbit_r2r_dac_lfo_simple_program_get_default_config(prog_offs);
+	    
+    sm_config_set_out_shift(&c, true, false, 24);
+	
+	for(int i=0; i<8; i++) {
+		pio_gpio_init(pio, pin+i);
+	}
+	
+    // Set the pin direction to output at the PIO
+    pio_sm_set_out_pins(pio, sm, pin, 8);
+	pio_sm_set_consecutive_pindirs(pio, sm, pin, 8, true);
+
+	sm_config_set_out_pins(&c, pin, 8);
+	
+	sm_config_set_clkdiv(&c, init_clkdiv);
+	
+	pio_sm_init(pio, sm, prog_offs, &c);
+    pio_sm_set_enabled(pio, sm, true);
+	
+	}
+
+%}
