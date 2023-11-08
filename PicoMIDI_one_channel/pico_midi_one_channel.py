@@ -1,5 +1,6 @@
 # This takes USB midi input and outputs a single CV and gate output.
 # hopefully there will be a more -output version to follow.
+# Note that the conversion of a note to a voltage is fairly arbitary at the moment, just for testing really.
 
 
 import array
