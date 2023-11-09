@@ -11,4 +11,7 @@ target_link_libraries(PicoVCO_R2R PRIVATE
 	hardware_adc
         )
 
+pico_enable_stdio_usb(PicoVCO_R2R 1)
+pico_enable_stdio_uart(PicoVCO_R2R 0)
+
 pico_add_extra_outputs(PicoVCO_R2R)

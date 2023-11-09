@@ -802,28 +802,465 @@ PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\sr
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio\stdio.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
 
-PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
-PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
 
-PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
 
-PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c > CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build
+
+PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
 
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
@@ -842,7 +1279,7 @@ PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\sr
 
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
@@ -861,7 +1298,7 @@ PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\sr
 
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\flags.make
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object PicoVCO_R2R/CMakeFiles/PicoVCO_R2R.dir/C_/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj -c C:\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
@@ -926,7 +1363,30 @@ PicoVCO_R2R_OBJECTS = \
 "CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj" \
 "CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj" \
 "CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj" \
-"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj" \
+"CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj" \
 "CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj" \
 "CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj"
@@ -980,14 +1440,37 @@ PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
-PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\tusb.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\C_\Users\ben\Documents\GitHub\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\build.make
 PicoVCO_R2R\PicoVCO_R2R.elf: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
 PicoVCO_R2R\PicoVCO_R2R.elf: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable PicoVCO_R2R.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable PicoVCO_R2R.elf"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\PicoVCO_R2R
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=PicoVCO_R2R.elf.map -Wl,--script=C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles\PicoVCO_R2R.dir\objects1.rsp -o PicoVCO_R2R.elf  ..\pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S 
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build

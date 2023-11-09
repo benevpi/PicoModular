@@ -1759,12 +1759,12 @@ pico-sdk\tools\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=95,96 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=96 "Built target bs2_default"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 
 # Build rule for subdir invocation for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 0
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule
@@ -1791,7 +1791,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all: pico-sdk
 
 # Build rule for subdir invocation for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 0
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule
@@ -1818,7 +1818,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 
 # Build rule for subdir invocation for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 0
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule
@@ -1868,12 +1868,12 @@ PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\all: pico-sdk\src\rp2_common\boot_stage2\
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\all: PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\all
 	$(MAKE) $(MAKESILENT) -f PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\depend
 	$(MAKE) $(MAKESILENT) -f PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target PicoVCO_R2R"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target PicoVCO_R2R"
 .PHONY : PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\all
 
 # Build rule for subdir invocation for target.
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 59
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 0
 .PHONY : PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\rule
@@ -1895,7 +1895,7 @@ PicoVCO_R2R\CMakeFiles\PicoVCO_R2R.dir\clean:
 PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\all:
 	$(MAKE) $(MAKESILENT) -f PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\depend
 	$(MAKE) $(MAKESILENT) -f PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=94 "Built target PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=95 "Built target PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h"
 .PHONY : PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1922,7 +1922,7 @@ PicoVCO_R2R\CMakeFiles\PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h.dir\clean:
 PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\all:
 	$(MAKE) $(MAKESILENT) -f PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\depend
 	$(MAKE) $(MAKESILENT) -f PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=47 "Built target PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=39 "Built target PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h"
 .PHONY : PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1950,12 +1950,12 @@ PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\all: pico-sdk\src\rp2_common\boot
 PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\all: PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h.dir\all
 	$(MAKE) $(MAKESILENT) -f PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\depend
 	$(MAKE) $(MAKESILENT) -f PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46 "Built target PicoVCO_LFO_R2R"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target PicoVCO_LFO_R2R"
 .PHONY : PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\all
 
 # Build rule for subdir invocation for target.
 PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles 0
 .PHONY : PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\rule
