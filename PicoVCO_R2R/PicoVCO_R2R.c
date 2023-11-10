@@ -43,12 +43,12 @@ int original_wave[WAVESIZE];
 //nt buffer1[WAVESIZE];
 //int buffer2[WAVESIZE];
 //int *buffers[2] = {buffer1, buffer2};
-int buffers[2][WAVESIZE];
-int playing_buffer = 0;
+int buffers[2][WAVESIZE]; // are these also volatile?
+volatile int playing_buffer = 0;
 int last_gate_val = 0;
 PIO pio;
 uint sm;
-bool flip = false;
+volatile  bool flip = false; // volatile because can be changed by either core?
 
 
 
@@ -67,10 +67,13 @@ float calc_clkdiv(float frequency, int length) {
 
 void core1_loop() {
 	while(true) {
+		//enter mutex
 		if (flip) {
 			playing_buffer = (playing_buffer + 1) % 2;
 			flip = false;
 		}
+		//leve mutex
+		
 		for(int i=0; i<WAVESIZE;i++){
 			pio_sm_put_blocking(pio, sm, buffers[playing_buffer][i]);
 		}
@@ -82,11 +85,12 @@ void core1_loop() {
 void scale_wave(int scale_adc) {
 	printf("sw1");
 	int back_buffer = (playing_buffer + 1) % 2;
-	int scale_factor = scale_adc / MAX_ADC;
-	printf("scale_factor: %d, \n", scale_factor);
+	
+	float scale_factor = (float)scale_adc / (float)MAX_ADC;
+	
+	printf("scale_factor: %f, \n", scale_factor);
 	printf("sw1");
-	for(int i = 0; i< WAVESIZE; i++) {
-
+	for(int i=0; i<WAVESIZE; i++) {
 		buffers[back_buffer][i] = original_wave[i]*scale_factor;
 	}
 }
@@ -138,11 +142,13 @@ void main () {
 		uint16_t gate_adc = adc_read();
 		printf(".");
 		
-		if (gate_adc > (last_gate_val + GATE_THRESHOLD) || gate_adc < (last_gate_val - GATE_THRESHOLD)) {
-			printf("voltage change\n");
+		if ((gate_adc > (last_gate_val + GATE_THRESHOLD)) || (gate_adc < (last_gate_val - GATE_THRESHOLD))) {
+			printf("voltage change, %d\n", gate_adc);
 			scale_wave(gate_adc);
 			printf("v1");
+			// enter mutex
 			flip = true;
+			//leave mutex
 			//playing_buffer = (playing_buffer) + 1 % 2;
 			printf("v2");
 			last_gate_val = gate_adc;
