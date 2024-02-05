@@ -41,7 +41,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/ben/Documents/GitHub/PicoModular/build/pico-sdk/cmake_install.cmake")
   include("C:/Users/ben/Documents/GitHub/PicoModular/build/PicoVCO_R2R/cmake_install.cmake")
+  include("C:/Users/ben/Documents/GitHub/PicoModular/build/PicoVCO_R2R_Gateless/cmake_install.cmake")
   include("C:/Users/ben/Documents/GitHub/PicoModular/build/PicoVCO_LFO_R2R/cmake_install.cmake")
+  include("C:/Users/ben/Documents/GitHub/PicoModular/build/PicoEnvelope/cmake_install.cmake")
+  include("C:/Users/ben/Documents/GitHub/PicoModular/build/pio-i2c-hs/cmake_install.cmake")
 
 endif()
 

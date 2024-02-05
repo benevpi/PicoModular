@@ -1,8 +1,3 @@
-# This takes USB midi input and outputs a single CV and gate output.
-# hopefully there will be a more -output version to follow.
-# Note that the conversion of a note to a voltage is fairly arbitary at the moment, just for testing really.
-
-
 import array
 import time
 import math
@@ -55,7 +50,10 @@ def note_to_dac_val(note):
     if note < basenote: return 0
     if note >= basenote+(int(3.3*12)): return max_val
     return notes[note-basenote]
+    
+last_note = 0
 
+#has to include pitch bends, but really, need to tune it for this to make sense.
 while True:
     msg = midi.receive()
     if isinstance(msg, NoteOn) and msg.velocity != 0:
@@ -63,8 +61,20 @@ while True:
         print("value: ", note_to_dac_val(msg.note))
         dac.value = note_to_dac_val(msg.note)
         gate.value = True
+        last_note = msg.note
 
     elif (isinstance(msg, NoteOff) or
           isinstance(msg, NoteOn) and msg.velocity == 0):
-        gate.value = False
-        print( "off: ",  msg.note)
+        if(msg.note == last_note):
+            gate.value = False
+            print( "off: ",  msg.note)
+        else:
+            print("not last note off")
+    
+    elif (isinstance(msg, PitchBend)):
+        #Not -- this is not correct, needs tuning
+        dac.value = note_to_dac_val(last_note-basenote) + int((msg.pitch_bend/8192)*(octave_size/12))
+        print("bending")
+        
+    elif (msg is not None):
+        print(msg)

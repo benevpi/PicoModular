@@ -36,7 +36,7 @@ Is it worth double-buffering? -- probably
 #define LOWEST_FREQ 100
 #define CYCLES_PER_PIO_LOOP 3
 #define CPUFREQ 130000000
-#define GATE_THRESHOLD 20
+#define GATE_THRESHOLD 100
 #define MAX_ADC 4095
 
 int original_wave[WAVESIZE];
@@ -67,12 +67,10 @@ float calc_clkdiv(float frequency, int length) {
 
 void core1_loop() {
 	while(true) {
-		//enter mutex
 		if (flip) {
 			playing_buffer = (playing_buffer + 1) % 2;
 			flip = false;
 		}
-		//leve mutex
 		
 		for(int i=0; i<WAVESIZE;i++){
 			pio_sm_put_blocking(pio, sm, buffers[playing_buffer][i]);
@@ -83,13 +81,9 @@ void core1_loop() {
 //note -- need pointers to original wave, current wave and processing_wave
 //can switch between them as needed
 void scale_wave(int scale_adc) {
-	printf("sw1");
 	int back_buffer = (playing_buffer + 1) % 2;
 	
 	float scale_factor = (float)scale_adc / (float)MAX_ADC;
-	
-	printf("scale_factor: %f, \n", scale_factor);
-	printf("sw1");
 	for(int i=0; i<WAVESIZE; i++) {
 		buffers[back_buffer][i] = original_wave[i]*scale_factor;
 	}
@@ -126,36 +120,23 @@ void main () {
 	
 	while(true) {
 		adc_select_input(0);
-		printf("1");
 		uint16_t result = adc_read();
-		printf("2");
 		freq = LOWEST_FREQ * pow(2, result*conversion_factor);
-		printf("3");
 		divider = calc_clkdiv(freq, WAVESIZE);
-		printf("4");
 		pio_sm_set_clkdiv(pio, sm, divider);
-		printf("5");
-		
 		
 		adc_select_input(1);
-		printf("6");
 		uint16_t gate_adc = adc_read();
-		printf(".");
 		
 		if ((gate_adc > (last_gate_val + GATE_THRESHOLD)) || (gate_adc < (last_gate_val - GATE_THRESHOLD))) {
 			printf("voltage change, %d\n", gate_adc);
 			scale_wave(gate_adc);
-			printf("v1");
 			// enter mutex
 			flip = true;
 			//leave mutex
 			//playing_buffer = (playing_buffer) + 1 % 2;
-			printf("v2");
 			last_gate_val = gate_adc;
-			printf("v3");
 		}
-		sleep_ms(500);
-		printf("end");
 		
 	}
 

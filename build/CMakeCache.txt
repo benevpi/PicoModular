@@ -430,7 +430,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=82
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=85
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -477,12 +477,12 @@ DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 FAMILY_MCUS:INTERNAL=RP2040
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/ben/anaconda3/python.exe][cfound components: Interpreter ][v3.8.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/ben/AppData/Local/Programs/Python/Python39/python.exe][cfound components: Interpreter ][v3.9.1()]
 PICO_BOOT_STAGE2_DIR:INTERNAL=C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/boot_stage2
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=C:/Users/ben/Documents/GitHub/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=C:/Users/ben/Documents/GitHub/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/cmsis C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2040/hardware_regs C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/cmsis C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/cmsis C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= C:/Users/ben/Documents/GitHub/pico-sdk/src/common C:/Users/ben/Documents/GitHub/pico-sdk/lib/cyw43-driver/src C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1
@@ -491,8 +491,8 @@ PICO_PLATFORM_CMAKE_FILE:INTERNAL=C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2
 PICO_SDK_TESTS_ENABLED:INTERNAL=
 PICO_TOOLCHAIN_PATH:INTERNAL=
 //Path to a program.
-_Python3_EXECUTABLE:INTERNAL=C:/Users/ben/anaconda3/python.exe
+_Python3_EXECUTABLE:INTERNAL=C:/Users/ben/AppData/Local/Programs/Python/Python39/python.exe
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;5;32;;;C:\Users\ben\anaconda3\Lib;C:\Users\ben\anaconda3\Lib;C:\Users\ben\anaconda3\Lib\site-packages;C:\Users\ben\anaconda3\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=4e34f10c3cb10d997849adfaae8ba97d
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;1;32;;;C:\Users\ben\AppData\Local\Programs\Python\Python39\Lib;C:\Users\ben\AppData\Local\Programs\Python\Python39\Lib;C:\Users\ben\AppData\Local\Programs\Python\Python39\Lib\site-packages;C:\Users\ben\AppData\Local\Programs\Python\Python39\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=7ff8a246e6e0af657aa3e401cd7753ce
 

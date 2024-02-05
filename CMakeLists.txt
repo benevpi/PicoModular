@@ -22,4 +22,7 @@ if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
 endif()
 
 add_subdirectory(PICOVCO_R2R)
+add_subdirectory(PICOVCO_R2R_Gateless)
 add_subdirectory(PICOVCO_LFO_R2R)
+add_subdirectory(PICOEnvelope)
+add_subdirectory(pio-i2c-hs)

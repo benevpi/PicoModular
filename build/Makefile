@@ -192,6 +192,32 @@ PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h\fast:
 .PHONY : PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h\fast
 
 #=============================================================================
+# Target rules for targets named PicoVCO_R2R_Gateless
+
+# Build rule for target.
+PicoVCO_R2R_Gateless: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PicoVCO_R2R_Gateless
+.PHONY : PicoVCO_R2R_Gateless
+
+# fast build rule for target.
+PicoVCO_R2R_Gateless\fast:
+	$(MAKE) $(MAKESILENT) -f PicoVCO_R2R_Gateless\CMakeFiles\PicoVCO_R2R_Gateless.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_R2R_Gateless\CMakeFiles\PicoVCO_R2R_Gateless.dir\build
+.PHONY : PicoVCO_R2R_Gateless\fast
+
+#=============================================================================
+# Target rules for targets named PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h
+
+# Build rule for target.
+PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h
+.PHONY : PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h
+
+# fast build rule for target.
+PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h\fast:
+	$(MAKE) $(MAKESILENT) -f PicoVCO_R2R_Gateless\CMakeFiles\PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_R2R_Gateless\CMakeFiles\PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h.dir\build
+.PHONY : PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h\fast
+
+#=============================================================================
 # Target rules for targets named PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h
 
 # Build rule for target.
@@ -217,6 +243,45 @@ PicoVCO_LFO_R2R\fast:
 	$(MAKE) $(MAKESILENT) -f PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\build.make /nologo -$(MAKEFLAGS) PicoVCO_LFO_R2R\CMakeFiles\PicoVCO_LFO_R2R.dir\build
 .PHONY : PicoVCO_LFO_R2R\fast
 
+#=============================================================================
+# Target rules for targets named PicoEnvelope
+
+# Build rule for target.
+PicoEnvelope: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PicoEnvelope
+.PHONY : PicoEnvelope
+
+# fast build rule for target.
+PicoEnvelope\fast:
+	$(MAKE) $(MAKESILENT) -f PicoEnvelope\CMakeFiles\PicoEnvelope.dir\build.make /nologo -$(MAKEFLAGS) PicoEnvelope\CMakeFiles\PicoEnvelope.dir\build
+.PHONY : PicoEnvelope\fast
+
+#=============================================================================
+# Target rules for targets named pio-i2c-hs
+
+# Build rule for target.
+pio-i2c-hs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pio-i2c-hs
+.PHONY : pio-i2c-hs
+
+# fast build rule for target.
+pio-i2c-hs\fast:
+	$(MAKE) $(MAKESILENT) -f pio-i2c-hs\CMakeFiles\pio-i2c-hs.dir\build.make /nologo -$(MAKEFLAGS) pio-i2c-hs\CMakeFiles\pio-i2c-hs.dir\build
+.PHONY : pio-i2c-hs\fast
+
+#=============================================================================
+# Target rules for targets named pio-i2c-hs_i2c_pio_h
+
+# Build rule for target.
+pio-i2c-hs_i2c_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pio-i2c-hs_i2c_pio_h
+.PHONY : pio-i2c-hs_i2c_pio_h
+
+# fast build rule for target.
+pio-i2c-hs_i2c_pio_h\fast:
+	$(MAKE) $(MAKESILENT) -f pio-i2c-hs\CMakeFiles\pio-i2c-hs_i2c_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pio-i2c-hs\CMakeFiles\pio-i2c-hs_i2c_pio_h.dir\build
+.PHONY : pio-i2c-hs_i2c_pio_h\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -226,13 +291,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PicoVCO_LFO_R2R_eightbit_r2r_dac_lfo_simple_pio_h
+	@echo ... PicoVCO_R2R_Gateless_eightbit_r2r_dac_simple_pio_h
 	@echo ... PicoVCO_R2R_eightbit_r2r_dac_simple_pio_h
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... pio-i2c-hs_i2c_pio_h
+	@echo ... PicoEnvelope
 	@echo ... PicoVCO_LFO_R2R
 	@echo ... PicoVCO_R2R
+	@echo ... PicoVCO_R2R_Gateless
 	@echo ... bs2_default
+	@echo ... pio-i2c-hs
 .PHONY : help
 
 

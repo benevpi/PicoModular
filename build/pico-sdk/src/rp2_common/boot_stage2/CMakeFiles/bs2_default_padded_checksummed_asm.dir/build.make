@@ -63,7 +63,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ben\Documents\GitHub\PicoModular\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build\pico-sdk\src\rp2_common\boot_stage2
-	C:\Users\ben\anaconda3\python.exe C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff C:/Users/ben/Documents/GitHub/PicoModular/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin C:/Users/ben/Documents/GitHub/PicoModular/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	C:\Users\ben\AppData\Local\Programs\Python\Python39\python.exe C:/Users/ben/Documents/GitHub/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff C:/Users/ben/Documents/GitHub/PicoModular/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin C:/Users/ben/Documents/GitHub/PicoModular/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 	cd C:\Users\ben\Documents\GitHub\PicoModular\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
